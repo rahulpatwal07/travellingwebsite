@@ -1,2 +1,2 @@
 # travellingwebsite
-This is a static file created using html and css only
+This is a static website created using html and css only
