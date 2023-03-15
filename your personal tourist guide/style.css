@@ -1,0 +1,164 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Edu+TAS+Beginner&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    /* box-sizing: border-box; */
+    /* background: url(./background.jpg) ; */
+}
+.header{
+    background: url("https://images.unsplash.com/photo-1475503572774-15a45e5d60b9?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80") ;
+    background-size: cover;
+    height: 100vh;
+}
+.navbar{
+    display: flex;
+}
+.icon img{
+    margin-left: 10px;
+    margin-top: 5px;
+    width: 50px;
+}
+#menu-icon {
+    margin: 15px;
+    width: 30px;
+    cursor: pointer;
+}
+.navbar ul{
+    margin-top: 8px;
+    margin-left: auto;
+    margin-right: 10px;
+    display: flex;
+    list-style: none;
+    cursor: pointer;
+}
+.searchButton{
+    margin-top: 9px;
+    text-align: center;
+    justify-content: center;
+    margin-left: auto;
+    margin-right: 4px;
+    border-radius: 21px;
+    
+}
+.navbar ul li{
+    margin: 10px 8px;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+
+.container {
+    height: 70vh;
+    font-size: xx-large;
+    color: black;
+    padding: 70px;
+
+    text-align: center;
+    align-items: center;
+    justify-content: center;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+
+}
+.container h1{
+    margin-bottom: 5px;
+}
+.para{
+    display: grid;
+    grid-template-columns: repeat(3,33%);
+    grid-gap: 5px;
+    margin-bottom: 10px;
+}
+.first{
+    /* border: 2px solid black; */
+    margin: 10px;
+    padding: 3px;
+}
+.first h2{
+    text-align: center;
+    font-family: 'Edu TAS Beginner', cursive;
+    margin-bottom: 6px;
+}
+.first p{
+    font-weight: bold;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.first img{
+    border-radius: 22px;
+    height: 65%;
+    width: 100%;
+}
+.heading2{
+    margin: 15px 33%;
+    margin-top: 70px;
+    border: 15px solid black;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 20px;
+    justify-content: center;
+    color: white;
+    background-color: black;
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+}
+.cpara{
+    font-size: 20px;
+    line-height: 25px;
+}
+.heading3{
+    font-size: 25px;
+}
+.card{
+    display: flex;
+    margin: 65px 80px;
+}
+.card-heading{
+    font-size: 35px;
+    margin-bottom: 15px;
+}
+.card-photo{
+    width: 70%;
+    height: 50vh;
+    margin: 5px;
+    border-radius: 10px;
+}
+.card-text{
+    font-family: 'Dela Gothic One', cursive;
+    font-family: 'Edu TAS Beginner', cursive;
+    font-size: larger;
+    font-weight: bold;
+    line-height: 30px;
+    margin-left: 15px;
+}
+.btn{
+    /* border: 5px solid white; */
+    background-color: black;
+    padding: 5px;
+    margin-top: 10px;
+    border-radius: 5px;
+    font-size: 15px;
+}
+.btn a{
+    color: white;
+    text-decoration: none;
+}
+.btn a:hover{
+    color: grey;
+}
+footer{
+    margin-top: 25px;
+    justify-content: center;
+    text-align: center;
+    background-color: black;
+    color: white;
+    
+}
+footer h3{
+    /* padding: 25px; */
+    padding: 10px;
+    text-align: center;
+}
+footer img{
+    cursor: pointer;
+    margin: 10px;
+    width: 35px;
+}
